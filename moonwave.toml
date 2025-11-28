@@ -1,0 +1,10 @@
+[project]
+title = "Signal"
+license = "MIT"
+
+[docgen]
+input = "src"
+output = "docs"
+
+[site]
+baseUrl = "/"
