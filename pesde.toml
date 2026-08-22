@@ -1,0 +1,6 @@
+description = "StoryBakery/Signal"
+authors = ["StoryBakery"]
+license = "MIT"
+includes = ["src/*", "README.md", "LICENSE", "pesde.toml"]
+
+lib = "src/init.luau"

@@ -1,0 +1,16 @@
+syntax = "Luau"
+indent_type = "Tabs"
+indent_width = 4
+
+column_width = 100    # Use a 100-character line width.
+line_endings = "Unix" # LF
+
+quote_style = "AutoPreferDouble" # Prefer double quotes for strings.
+call_parentheses = "Input"
+
+collapse_simple_statement = "Never"  # Do not collapse if/return statements onto one line.
+space_after_function_names = "Never" # Keep the function foo() style.
+block_newline_gaps = "Never"         # Remove blank lines around blocks for consistent formatting.
+
+[sort_requires]
+enabled = true # Sort require and game:GetService blocks by name.
